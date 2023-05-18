@@ -1,0 +1,254 @@
+/* large device 1400px
+@media (max-width:1400px) {
+    .nav-link::before {
+        bottom: -4.4vh;
+    }
+    .search_botton {
+        top: -181px;
+    }
+    .feedback_child_top::before {
+        left: 15%;
+    }
+} */
+
+/* large device 1200px */
+@media (max-width:1200px) {
+    
+    .search_botton {
+        top: -160px;
+    }
+}
+/*large device 991px */
+@media (max-width:991px) {
+  
+    .common_span {
+        width: 200px;
+    }
+    .search_botton {
+        top: -128px;
+    }
+    .nav-link {
+        text-align: center;
+    }
+    .nav-link::before {
+        bottom: 0.1vh;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    .nav-link:hover::before {
+        width: 30%;
+    }
+    .about_left {
+        height: 700px;
+        width: 480px;
+    }
+    .about_left img {
+        width: 100%;
+        height: 100%;
+    }
+    .service {
+        padding: 10px;
+        height: 235px;
+    }
+    .service h6 {
+        margin: 10px 0;
+        font-size: 15px;
+    }
+    .service p {
+        font-size: 12px;
+    }
+    .statistics .child h6 {
+        font-size: 14px;
+    }
+    .work_main ul {
+        margin: auto;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .photo_gallery .top a {
+        padding: 1px;
+    }
+    .photo_gallery .bottom a {
+        padding: 1px;
+    }
+    .story_child .btn {
+        font-size: 13px;
+    }
+    .feedback_child_top::before {
+        left: 14%;
+    }
+}
+/* medium screen 768px */
+@media (max-width:767px) {
+    header {
+        min-height: 97vh;
+    }
+    .banner_section {
+        min-height: 80vh;
+    }
+    .owl-nav .owl-prev {
+        left: -90px;
+        top: 35%;
+    }
+    .owl-nav .owl-next {
+        right: -90px;
+        top: 35%;
+    }
+    .banner h1 {
+        text-align: center !important;
+    }
+    .banner a {
+        margin-top: 30px;
+    }
+    .search_botton {
+        top: -48px;
+    }
+    
+    .about_left {
+        position: inherit;
+        height: 530px;
+        width: 550px;
+    }
+    .about_me_section {
+        padding: 25px 0;
+    }
+    .about_right h1 {
+        margin-top: 20px;
+    }
+    .my_secvive_section {
+        padding-bottom: 20px;
+    }
+ 
+    .life_changing h1 {
+        margin-top: 30px;
+    }
+    .feedback_child_top::before {
+        left: 16%;
+    }
+
+}
+/* mediam device 575px */
+@media (max-width:575px) {
+    .owl-nav .owl-next {
+        display: none;
+    }
+    
+    .banner a {
+        margin-top: 35px;
+    }
+   
+   
+   
+  
+   
+    .my_statistics_section {
+        min-height: 55vh;
+        padding: 20px 0;
+    }
+    .statistics {
+        margin-top: 0px;
+    }
+  
+ 
+    .my_work_section {
+        padding: 25px 0;
+    }
+    .life_changing_section {
+        padding: 20px 0;
+    }
+   
+    .feedback_section {
+        padding: 20px 0;
+    }
+    .feedback_child_top::before {
+        left: 15%;
+    }
+    .tweet_section {
+        padding: 20px 0;
+        margin-top: 0px;
+    }
+    .follow_me_section {
+        margin: 20px 0;
+    }
+    .owl-dots {
+        top: 100%;
+    }
+    .get_in_touch_section {
+        padding: 35px 0;
+    }
+}
+/* mobile device 320 px */
+@media (max-width:320px) {
+    header {
+        min-height: 85vh;
+    }
+    .banner_section {
+        min-height: 70vh;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .search_botton {
+        display: none;
+    }
+    .banner h1 {
+        font-size: 45px;
+        text-align: center !important;
+    }
+    .banner a {
+        margin-top: 25px;
+    }
+    .about_right {
+        margin-top: 20px;
+    }
+    .about_right p {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+    .about_left {
+        height: 350px;
+        width: 305px;
+    }
+    .about_right li {
+        width: 75%;
+    }
+   
+    .statistics::before {
+        top: 47%;
+    }
+   
+    .work_main li .btn {
+        font-size: 9px;
+    }
+    .photo_gallery .top {
+        display: inherit;
+    }
+    .photo_gallery .bottom {
+        display: inherit;
+    }
+    .photo_gallery .top a {
+        padding: 0px;
+    }
+    .photo_gallery .bottom a {
+        padding: 0px;
+    }
+    .recent_story_section {
+        margin-bottom: 30px;
+    }
+   
+
+   
+    .feedback_right {
+        padding: 0px;
+        margin-left: 15px;
+    }
+    .feedback_child_top::before {
+        bottom: -5%;
+        left: 26%;
+    }
+   
+   
+    h1{
+        font-size: 24px !important;
+    }
+}
